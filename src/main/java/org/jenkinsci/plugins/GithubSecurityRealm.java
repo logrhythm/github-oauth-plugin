@@ -389,13 +389,7 @@ public class GithubSecurityRealm extends AbstractPasswordBasedSecurityRealm impl
         }
         String suffix = "";
         if (!scopes.isEmpty()) {
-<<<<<<< HEAD
-            suffix = "&scope=" + Util.join(scopes, ",");
-||||||| 57ea2d4
-            suffix = "&scope="+Util.join(scopes,",");
-=======
             suffix = "&scope="+Util.join(scopes,",")+"&state="+state;
->>>>>>> github-oauth-0.37
         } else {
             // We need repo scope in order to access private repos
             // See https://developer.github.com/v3/oauth/#scopes
