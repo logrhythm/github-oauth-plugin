@@ -134,7 +134,7 @@
         <dependency>
             <groupId>org.jenkins-ci.plugins</groupId>
             <artifactId>external-monitor-job</artifactId>
-            <version>191.v363d0d1efdf8</version>
+            <version>215.v2e88e894db_f8</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
